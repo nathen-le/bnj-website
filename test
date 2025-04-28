@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BNJ Pressure Washing</title>
+    <style>
+        :root {
+            --primary-color: #2a9d8f; /* Customize colors here */
+            --secondary-color: #e9c46a;
+            --text-color: #264653;
+            --background-color: #f4f4f4;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: var(--primary-color);
+        }
+
+        .section-title {
+            text-align: center;
+        }
+
+        .team-section, .pricing-section, .contact-section {
+            margin-bottom: 2rem;
+        }
+
+        .team-members {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .team-member {
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            color: white;
+            background-color: var(--secondary-color);
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BNJ Pressure Washing</h1>
+        <p>Professional cleaning services you can trust!</p>
+    </header>
+
+    <main>
+        <section class="team-section">
+            <h2 class="section-title">Meet Our Team</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <h3>Bob</h3>
+                    <p>Specialist in residential cleaning.</p>
+                </div>
+                <div class="team-member">
+                    <h3>Nancy</h3>
+                    <p>Expert in commercial projects.</p>
+                </div>
+                <div class="team-member">
+                    <h3>Joe</h3>
+                    <p>Your go-to for tough stains and more!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing-section">
+            <h2 class="section-title">Our Pricing</h2>
+            <p><strong>Driveway Cleaning:</strong> Starting at $100</p>
+            <p><strong>Deck Washing:</strong> Starting at $150</p>
+            <p><strong>Full House Exterior:</strong> Starting at $300</p>
+            <p>Contact us for a custom quote tailored to your needs!</p>
+        </section>
+
+        <section class="contact-section">
+            <h2 class="section-title">Get a Quote</h2>
+            <p>Fill out the form below to get in touch with us. Your request will be sent directly to our Google Sheets.</p>
+            <a href="https://tally.so/r/your-tally-form-link" target="_blank" class="button">Fill Out the Form</a>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 1rem; background-color: var(--secondary-color); color: white;">
+        <p>&copy; 2025 BNJ Pressure Washing. All rights reserved.</p>
+    </footer>
+</body>
+</html>
